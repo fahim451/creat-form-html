@@ -12,32 +12,37 @@
     <input type="text" id = " First Name" placeholder="First Name"> 
     <input type="text" id = " Last Name" placeholder="Last Name"> <br> <br>
     <input type="number" id="number" placeholder="01xxxxxxx"> 
-     <input type="email" id = " email" placeholder="You @example.com"> <br> <br>
+     <input required type ="email" id = " email" placeholder="You @example.com"> <br> <br>
      <input type="date" id ="DOB" placeholder="DOB"> 
      <input required type="password" id = " password" placeholder="Password"> <br> <br>
      <input type="github" id = " github" placeholder="Github Link">
-      
+     
      <h3> Which course are you interested in? </h3>
-      <input type="checkbox" id="html" name="head" value="HTML"> HTML
-      <input type="checkbox" id="css" name="head" value="CSS"> CSS
-      <input type="checkbox" id="js" name="head" value="JavaScript"> JavaScript
-      <input type="checkbox" id="react" name="head" value="React"> React
+      <input type="checkbox" id="html" name="status" value="HTML"> HTML
+      <input type="checkbox" id="css" name="status" value="CSS"> CSS
+      <input type="checkbox" id="js" name="status" value="JavaScript"> JavaScript
+      <input type="checkbox" id="react" name="status" value="React"> React
      
-     
-   
+
+      
+       <br> <br>
     <!-- checkbox redy -->
 
     <h3>How will you show me the homework? </h3>
     
        <input type ="radio" name="status" id ="github "> Github
       <input type="radio" name="status" id="image"  value="image "> image 
-       <input type="radio" name="status" value="screenshot"> Screenshot
-       
-    
+       <input type="radio" name="status" value="screenshot"> Screenshot 
+          
+     
       
      <br> <br>
      <h2> Upload your homework </h2>
     <input type="file" id="fileUpload" required="error"> <br><br>
+    
+    <h4> Additional Comments </h4>
+       <textarea placeholder="comment.."id ="comment"> </textarea>
+    <br> <br>
     <button type =" submit"> Submit </button>
 
 
